@@ -113,17 +113,7 @@ Example response:
 - `GET /tickets/`
 - Optional query params: `category`, `urgency`, `status`, `sla_breached`, `sort_by`
 
-Examples:
 
-```text
-GET /tickets/
-GET /tickets/?category=Billing
-GET /tickets/?category=Technical
-GET /tickets/?urgency=High
-GET /tickets/?status=needs_review
-GET /tickets/?sla_breached=true
-GET /tickets/?sort_by=urgency
-```
 
 ### Review queue
 
